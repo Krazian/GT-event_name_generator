@@ -1,0 +1,4245 @@
+/* REMOVE BELOW BODY WHEN NOT USING THE HOLIDAY IMAGES*/
+
+html, body { 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%
+}
+
+.randomizeButton {
+    -webkit-box-shadow: 0 0 5px 4px #ddd !important;
+    -moz-box-shadow: 0 0 5px 4px #ddd !important;
+    box-shadow: 0 0 5px 4px #ddd !important;
+}
+
+.main-title {
+ font-family: Helvetica;
+ font-weight: bold;
+ font-size: 100px;
+ color: #FFFFFF;
+ letter-spacing: -4.62px;
+ text-align: center;
+ padding-top: 1.5%;
+}
+
+.log-line {
+ font-family: Helvetica;
+ font-weight: lighter;
+ font-size: 30px;
+ color: #FFFFFF;
+ letter-spacing: -1.39px;
+ text-align: center;
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+}
+
+.footer img{
+  height: 15px;
+  margin-bottom: 2%; 
+}
+
+.slot-house {
+  margin-top: 7vh;
+}
+
+.slot{
+  background-color: transparent;
+  height: 90px;
+  font-size: 55px;
+  line-height: 100px;
+  font-family:  Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: center; 
+  padding-top: 12px;
+  padding-left: 2.5%;
+  color: #FFFFFF;
+}
+
+.machine1-border {
+  display: inline-block;
+  margin-left: 8%;
+}
+
+.machine1-border:after {
+  content:""; 
+  border-bottom: 10px solid #FFFFFF;
+  display: inline-block;
+  width: 73%;
+  margin-left: 15%;
+}
+
+.machine2-border {
+  display: inline-block;  
+  margin-left: -9%;
+}
+
+.machine2-border:after {
+  content:""; 
+  border-bottom: 10px solid #FFFFFF;
+  display: inline-block;
+  width: 73%;
+  margin-left: 15%;
+}
+
+.machine3-border {
+  display: inline-block;
+  margin-left: -9%;
+}
+
+.machine3-border:after {
+  content:""; 
+  border-bottom: 10px solid #FFFFFF;
+  display: inline-block;
+  width: 73%;
+  margin-left: 15%;
+}
+
+
+.randomizeButton {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1.57px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 44px;
+  width: 350px;
+}
+
+.randomize-button-spacing {
+  margin-top: 3%;
+  text-align: center;
+
+}
+
+.button-options:before {
+/*  text-align: center;*/
+/*  position: absolute;
+  content: "PUSH TO SPIN!";*/
+  
+}
+
+.tooltip-inner {
+    max-width: 90px;
+    /* If max-width does not work, try using width instead */
+    width: 90px; 
+}
+
+.button-options {
+  margin-left: -1.5vw;
+
+}
+
+.share-event-name {
+  margin-top: 3%;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 1%;
+  margin-left: 10px;
+}
+
+.copy-button {
+ /* margin-left: -23px;*/
+}
+
+
+.copy-button .btn{
+  font-size: 15px;
+  background-color: #FFFFFF;
+  line-height: 10.5px;
+  font-family: HelveticaNeue;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 3.5px;
+  width: 78px;
+/*  margin-bottom: 4.5px;
+  margin-left: 17px;*/
+  height: 28px;
+/*  text-align: center;*/
+ /* margin-top: -2%;*/
+}
+
+
+.twttr-button {
+  /*text-align: center;*/
+ /* padding-left: 15px;*/
+
+}
+
+.facebook-share-button  {
+/*  margin-right: -40px;*/
+/*margin-left: 38vw;*/
+}
+
+.facebook-share-button {
+
+}
+
+input#shareBtn {
+  height: 28px;
+  width: 80px;
+/*  margin-left: 5vw;*/
+}
+
+/*#fb-share-btn {
+  transform: scale(1.4);
+  transform: scale(1.4);
+  -ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4); 
+  -o-transform: scale(1.4); 
+  -moz-transform: scale(1.4); 
+  transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+}*/
+
+/*PUSHES SHOW WORDS OUTSIDE OF THE WINDOW! NEED TO KEEP IT 
+ SO THE COPY BUTTON WORKS!*/
+
+.outer {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: -50px;
+    top: 50px;
+}
+.showwords {
+  background: transparent;
+  border: none;
+  color: transparent;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 3588px) {
+.slot{
+    font-size: 3vw;
+    line-height: 145px;
+    height: 147px;
+    padding-top: 0px;
+
+  }
+}
+
+@media only screen and (min-width: 2989px) and (max-width: 3587px) {
+.slot{
+    font-size: 3vw;
+    line-height: 120px;
+    height: 122px;
+    padding-top: 0px;
+
+  }
+  
+}
+
+@media only screen and (min-width: 2698px) and (max-width: 2988px) {
+
+.slot{
+    font-size: 3vw;
+    line-height: 100px;
+    height: 102px;
+    padding-top: 0px;
+  }
+  
+}
+
+@media only screen and (min-width: 2301px) and (max-width: 2697px)  {
+
+.slot{
+    font-size: 3vw;
+    line-height: 92px;
+    height: 92px;
+    padding-top: 0px;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 1901px) and (max-width: 2300px) {
+
+.slot{
+    font-size: 3vw;
+    line-height: 82px;
+    height: 83px;
+    padding-top: 0px;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 1701px) and (max-width: 1900px) {
+
+.slot{
+    font-size: 3vw;
+    line-height: 82px;
+    height: 70px;
+    padding-top: 0px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 1501px) and (max-width: 1700px) {
+
+.slot{
+    font-size: 3vw;
+    line-height: 82px;
+    height: 70px;
+    padding-top: 0px;
+  }
+  
+}
+
+@media only screen and (min-width: 1351px) and (max-width: 1500px) {
+
+  .button-options {
+    margin-left: -2.5vw;
+  }
+
+
+  .main-title {
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 98px;
+   color: #FFFFFF;
+   letter-spacing: -4.62px;
+   text-align: center;
+   padding-top: 1.5%;
+  }
+
+  .log-line {
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 34px;
+   color: #FFFFFF;
+   letter-spacing: -1.39px;
+   text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 7vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 90px;
+    font-size: 47.5px;
+    line-height: 96px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1276px) and (max-width: 1350px) {
+
+
+  .button-options {
+    margin-left: -2.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 2vw;
+  }
+
+  .main-title {
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 98px;
+   color: #FFFFFF;
+   letter-spacing: -4.62px;
+   text-align: center;
+   padding-top: 1.5%;
+  }
+
+  .log-line {
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 34px;
+   color: #FFFFFF;
+   letter-spacing: -1.39px;
+   text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 7vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 90px;
+    font-size: 44.6px;
+    line-height: 99px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 10px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1275px) {
+  
+
+  .button-options {
+    margin-left: -2.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 2vw;
+  }
+
+  .main-title {
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 97px;
+   color: #FFFFFF;
+   letter-spacing: -4.62px;
+   text-align: center;
+   padding-top: 1.5%;
+  }
+
+  .log-line {
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 34px;
+   color: #FFFFFF;
+   letter-spacing: -1.39px;
+   text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 7vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 90px;
+    font-size: 41.5px;
+    line-height: 100px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 9px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 9px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 9px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 1126px) and (max-width: 1200px) {
+
+  .button-options {
+    margin-left: -4vw;
+  }
+
+  .share-event-name {
+    margin-left: 2vw;
+  }
+
+  .main-title {
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 90px;
+   color: #FFFFFF;
+   letter-spacing: -4.62px;
+   text-align: center;
+   padding-top: 1.5%;
+  }
+
+  .log-line {
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 32px;
+   color: #FFFFFF;
+   letter-spacing: -1.39px;
+   text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 7vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 90px;
+    font-size: 38.9px;
+    line-height: 100px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1051px) and (max-width: 1125px) {
+
+  .button-options {
+    margin-left: -4vw;
+  }
+
+  .share-event-name {
+    margin-left: 2vw;
+  }
+
+  .main-title {
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 85px;
+   color: #FFFFFF;
+   letter-spacing: -4.62px;
+   text-align: center;
+   padding-top: 1.5%;
+  }
+
+  .log-line {
+   font-family: Helvetica;
+   font-weight: lighter;
+   font-size: 35px;
+   color: #FFFFFF;
+   letter-spacing: -1.39px;
+   text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 7vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 90px;
+    font-size: 35.7px;
+    line-height: 100px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 8px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1050px) {
+
+  .button-options {
+    margin-left: -2.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 2.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+   /* padding-left: 15px;*/
+
+  }
+
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 75px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 34px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+  .slot-house {
+    margin-top: 7vh;
+    margin-left: 5%;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 60px;
+    font-size: 31.75px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-left: 2%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 6%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 77%;
+    margin-left: 10%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 77%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -8%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 350px;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+
+  }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 991px) {
+
+  .button-options {
+    margin-left: -5.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 2.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    margin-right: 20px;
+  }
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 33px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+  .slot-house {
+    margin-top: 7vh;
+    margin-left: 5%;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 60px;
+    font-size: 28.3px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-left: 1.7%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 6%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 77%;
+    margin-left: 10%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 77%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -8%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 350px;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 831px) and (max-width: 900px) {
+
+
+  .button-options {
+    margin-left: -6.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 3.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    margin-right: 20px;
+  }
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 67px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+  .slot-house {
+    margin-top: 10vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 60px;
+    font-size: 27.7px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 350px;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+
+  }
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 830px) {
+
+  
+  .button-options {
+    margin-left: -8vw;
+  }
+
+  .share-event-name {
+    margin-left: 4.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    margin-right: 20px;
+  }
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .slot-house {
+    margin-top: 10vh;
+  }
+
+  .slot{
+    background-color: transparent;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-left: 2.5%;
+    color: #FFFFFF;
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 8%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: -9%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: -9%;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 73%;
+    margin-left: 15%;
+  }
+
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 350px;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 682px) and (max-width: 767px) {
+
+
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 55px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 1%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 85px;
+    font-size: 47.8px;
+    line-height: 95px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 9px;
+    padding-right: 13px;
+    color: #FFFFFF;
+    margin-bottom: 1%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14.5%;
+    margin-bottom: 10px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%;
+
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 320px;
+    margin-bottom: -1%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-top: 3%;
+
+  }
+
+  .button-options {
+    margin-top: 1%;
+    margin-left: -2vw;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 35px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    margin-left: 26px;
+
+  }
+
+  .facebook-share-button {
+    margin-left: -4vw;
+
+
+  }
+
+/*  #fb-share-btn {
+    transform: scale(1.4);
+    transform: scale(1.4);
+    -ms-transform: scale(1.4); 
+    -webkit-transform: scale(1.4); 
+    -o-transform: scale(1.4); 
+    -moz-transform: scale(1.4); 
+    transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+  }*/
+
+}
+
+@media only screen and (min-width: 631px) and (max-width: 681px) {
+
+  .button-options {
+    margin-left: -16vw;
+  }
+
+  .share-event-name {
+    margin-left: 6.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 55px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 27px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 70px;
+    font-size: 45px;
+    line-height: 69px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+  }
+
+  .slot-house {
+    margin-top: 3vh;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+    margin-bottom: 10px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 320px;
+    margin-bottom: 1%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-left: -3.5vw;
+
+  }
+
+}
+
+@media only screen and (min-width: 564px) and (max-width: 630px) {
+
+  .button-options {
+    margin-left: -15.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 8.5vw;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twttr-button {
+    margin-right: 18.5px;
+    margin-left: 12px;
+  }
+
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 70px;
+    font-size: 39.5px;
+    line-height: 70px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 12px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 1%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+    margin-bottom: 10px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 320px;
+    margin-bottom: 1%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-top: 7%;
+
+  }
+
+  .button-options {
+    margin-top: 1%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+  #fb-share-btn {
+    /*margin-left: 100%;*/
+    transform: scale(1.4);
+    transform: scale(1.4);
+    -ms-transform: scale(1.4); 
+    -webkit-transform: scale(1.4); 
+    -o-transform: scale(1.4); 
+    -moz-transform: scale(1.4); 
+    transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+  }
+
+
+}
+
+@media only screen and (min-width: 513px) and (max-width: 563px) {
+
+  .button-options {
+    margin-left: -16vw;
+  }
+
+  .share-event-name {
+    margin-left: 8vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+  }
+
+  .twttr-button {
+    margin-right: 7.5px;
+    margin-left: 15px;
+  }
+
+
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 10px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+}
+
+@media only screen and (min-width: 473px) and (max-width: 512px) {
+
+  .button-options {
+    margin-left: -18vw;
+  }
+
+  .share-event-name {
+    margin-left: 9vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+    margin-right: 2px;
+  }
+
+  .twttr-button {
+    margin-right: 3.5px;
+    margin-left: 17px;
+  }
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 15px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+
+}
+
+
+@media only screen and (min-width: 454px) and (max-width: 472px) {
+
+  .button-options {
+    margin-left: -23.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 12.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+    margin-right: 10px;
+  }
+
+  .twttr-button {
+    margin-right: -10.5px;
+    margin-left: 20px;
+  }
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 38px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+}
+
+@media only screen and (min-width: 432px) and (max-width: 453px) {
+
+  .button-options {
+    margin-left: -25.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 13.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+    margin-right: 10px;
+  }
+
+  .twttr-button {
+    margin-right: -5px;
+    margin-left: 21px;
+  }
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 38px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 431px) {
+
+  .button-options {
+    margin-left: -24.5vw;
+  }
+
+  .share-event-name {
+    margin-left: 13.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+    margin-right: 10px;
+  }
+
+  .twttr-button {
+    margin-right: -15px;
+    margin-left: 15px;
+  }
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 28.7px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 38px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+
+  }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+
+  .button-options {
+    margin-left: -30vw;
+  }
+
+  .share-event-name {
+    margin-left: 14.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 1vw;
+    margin-right: 10px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+
+  .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 7.5%;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot-house {
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55px;
+    font-size: 27.5px;
+    line-height: 60px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-left: 14%;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 250px;
+    margin-bottom: 5%;
+
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: -3vh;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+  }
+
+  .copy-button .btn{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    line-height: 10.5px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 3.5px;
+    width: 80px;
+/*    margin-bottom: 4.5px;*/
+    height: 28px;
+    margin-left: 38px;
+  /*  text-align: center;*/
+   /* margin-top: -2%;*/
+  }
+
+
+  .button-options {
+      /*text-align: center;*/
+
+  }
+
+  .twttr-button {
+    /*text-align: center;*/
+
+  }
+
+  .facebook-share-button {
+  /*  margin-right: -40px;*/
+  /*margin-left: 38vw;*/
+
+  }
+
+}
+
+/*}*/
+
+/* CSS FOR MOBILE DEVICES AND TABLETS ! */
+
+/* IPAD PRO LANDSCAPE */
+/* (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1366px) and (max-width: 1366px)*/
+
+
+
+/* IPAD PRO PORTRAIT */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+/*  html, body {
+    background-size:  350% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+  .copy-button {
+    display: none;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 5vh;
+
+  }
+
+  .share-event-name {
+    margin-left: .5vw;
+    font-size: 24px;
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-right: -4%;
+  }
+
+  .facebook-share-button {
+    margin-right: 60px;
+  }  
+
+}
+
+
+/*IPAD LANDSCAPE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .share-event-name {
+    font-size: 20px;
+    margin-left: 9.5vw;
+    margin-top: 0vh;
+  }
+
+  .slot-house {
+    margin-top: 4vh;
+  }
+
+  .slot {
+    font-size: 25px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+
+  }
+
+  .facebook-share-button {
+    margin-left: 7.5vw;
+    margin-right: 25px;
+  }
+
+  .share-event-name {
+    margin-left: 2.5vw;
+    font-size: 24px;
+  }
+
+  .twttr-button {
+
+    margin-right: 1vw;
+  }
+
+}
+
+
+/*IPAD MINI LANDSCAPE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .share-event-name {
+    font-size: 20px;
+    margin-left: 9.5vw;
+    margin-top: 0vh;
+  }
+
+  .slot-house {
+    margin-top: 4vh;
+  }
+
+  .slot {
+    font-size: 25px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+
+  }
+
+
+  .facebook-share-button {
+    margin-left: 7.5vw;
+    margin-right: 25px;
+  }
+
+  .share-event-name {
+    margin-left: 2.5vw;
+    font-size: 24px;
+  }
+
+  .twttr-button {
+
+    margin-right: 1vw;
+  }
+
+}
+
+
+/*IPHONE 6 PLUS*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+
+
+/*  html, body {
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+/*  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: -7px;
+    margin-bottom: -8px;
+  }*/
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slot {
+      background-color: transparent;
+      height: 38.5px;
+      font-size: 32px;
+      line-height: 38.5px;
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      letter-spacing: 0px;
+      text-align: center;
+      padding-top: 0px;
+      padding-right: 20px;
+      color: #FFFFFF;
+      margin-bottom: 1%;
+  }
+
+  .slot-house {
+    margin-left: -29vw;
+    margin-top: 9vh;
+  }
+
+  .randomizeButton {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+      border: none;
+      border-radius: 8px;
+      letter-spacing: 1.57px;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 28px;
+      width: 175px;
+      height: 95px;
+      margin-top: -43vh;
+      margin-left: 10.5vw;
+      position: absolute;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 0%;
+  }
+
+  .footer {
+    /*display: none;*/
+  }
+
+  .footer img{
+    margin-bottom: 30%;
+    height: 15px;
+  }
+
+  .outer {
+    display: none;
+  }
+
+  .share-event-name {
+    margin-left: 30.5vw;
+    margin-top: -24vh;
+    font-size: 20px
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+    margin-top: 25px;
+    margin-left: -15.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 33.5vw;
+    margin-top: -19vh;
+  }
+
+  .twttr-button {
+    margin-left: 48vw;
+    margin-top: -16vh
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 20.5%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 23%;
+    margin-left: 13.5%;
+  }
+
+  #machine1 .slotMachineContainer {
+      padding-right: 518px;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: 15.5%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 23%;
+    margin-left: -39.7%;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-right: 548px;
+  }
+
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: 15.5%;
+    padding-top: 0px;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 0px;
+    padding-top: 5.5px;
+    margin-top: -3px;
+    margin-right: 413px;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 23%;
+    margin-left: -39.7%;
+  }
+
+  input#shareBtn {
+    margin-top: 12px;
+  }
+
+  .log-line {
+    margin-top: -10px;
+  }
+
+}
+
+
+/*GOOGLE NEXUS 6P  / GOOGLE NEXUS 5X LANDSCAPE */
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (orientation: landscape) {
+
+/*  html, body {
+    background-size:  115% 115%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }*/
+
+  .slot {
+    font-size: 28px;
+  }
+
+  .slot-house {
+    margin-top: 2vh;
+    margin-right: 5vw;
+  }
+
+ #machine1 .slotMachineContainer {
+    margin-left: 60px;
+  }
+
+  #machine2 .slotMachineContainer {
+    margin-left: 60px;
+  }
+
+  #machine3 .slotMachineContainer {
+    margin-left: 50px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .button-options {
+    margin-top: 5%;
+    margin-left: 7vw;
+  }
+
+  .facebook-share-button {
+    margin-right: 25px;
+  }
+
+  .footer img{
+    margin-bottom: 3%;
+    width: 176px;
+    height: 20px; 
+  }
+
+  .randomize-button-spacing {
+    margin-top: 0vh;
+    margin-bottom: -2vh;
+  }
+
+  .share-event-name {
+    margin-left: 20.5vw;
+    font-size: 18px;
+  }
+
+  .twttr-button {
+    margin-right: 0px;
+    margin-left: 20vw;
+  }
+}
+
+/*
+google nexus 6p
+
+*/
+
+
+/* GOOGLE NEXUS 6 WHICH ALSO EFFECTS ABOVE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 732px) and (orientation: landscape) {
+
+  .randomize-button-spacing {
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+  }
+
+  .randomizeButton {
+
+      margin-top: -177px;
+  }
+
+  .button-options {
+      margin-top: 2.5%;
+      margin-left: 7vw;
+  }
+
+  .main-title {
+
+    margin-top: -37px;
+}
+
+#machine1 .slotMachineContainer {
+    padding-right: 478px;
+}
+
+#machine2 .slotMachineContainer {
+    padding-right: 522px;
+}
+
+#machine3 .slotMachineContainer {
+
+    margin-right: 386px;
+}
+
+
+}
+
+
+/*IPHONE 6 LANDSCAPE! */
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) and (orientation: landscape) {
+
+/*  html, body {
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 2px;
+    margin-bottom: -8px;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: -10vh;
+  }
+
+  .slot {
+      background-color: transparent;
+      height: 38.5px;
+      font-size: 34px;
+      line-height: 38.5px;
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      letter-spacing: 0px;
+      text-align: center;
+      padding-top: 0px;
+      padding-right: 7.5px;
+      color: #FFFFFF;
+      margin-bottom: 1%;
+  }
+
+  .slot-house {
+    margin-left: -34vw;
+    margin-top: 13vh;
+  }
+
+  .randomizeButton {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+      border: none;
+      border-radius: 8px;
+      letter-spacing: 1.57px;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 28px;
+      width: 180px;
+      height: 95px;
+    /*  margin-bottom: 60vh;*/
+      margin-left: 10.5vw;
+      margin-top: -50vh;
+      position: absolute;
+  }
+
+ .randomize-button-spacing {
+    margin-top: 0%;
+    text-align: center;
+}
+
+  .footer {
+  }
+
+  .footer img{
+    margin-bottom: 2%;
+    height: 15px;
+  }
+
+  .outer {
+    display: none;
+  }
+
+  .share-event-name {
+    margin-left: 30.5vw;
+    margin-top: -29vh;
+    font-size: 20px
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+    margin-top: 3%;
+    margin-left: -15.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 33.5vw;
+    margin-top: -19vh;
+  }
+
+  .twttr-button {
+    margin-left: 48vw;
+    margin-top: -19vh
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 20.5%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: 12%;
+  }
+
+  #machine1 .slotMachineContainer {
+      padding-right: 440px;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: 15.5%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: -39.7%;
+  }
+
+  #machine2 .slotMachineContainer {
+    margin-right: 5px;
+    padding-left: 0%;
+    padding-right: 345px;
+  }
+
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: 15.5%;
+    padding-top: 0px;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0%;
+    margin-right: 350px;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: -39.7%;
+  }
+
+}
+
+
+/* SAMASUNG GALAXY S7 + S6 > (takes precedence over) NEXUS 5 LANDSCAPE */
+@media only screen and (min-device-width: 640px) and (max-device-width: 640px) and (orientation: landscape) {
+
+
+  .main-title {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: -7px;
+    margin-bottom: -8px;
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .slot {
+      background-color: transparent;
+      height: 38.5px;
+      font-size: 34px;
+      line-height: 38.5px;
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      letter-spacing: 0px;
+      text-align: center;
+      padding-top: 0px;
+      padding-right: 7.5px;
+      color: #FFFFFF;
+      margin-bottom: 0%;
+  }
+
+    .slot {
+    font-size: 28px;
+  }
+
+
+ #machine1 .slotMachineContainer {
+    margin-left: 50px;
+  }
+
+  #machine2 .slotMachineContainer {
+    margin-left: 2px;
+  }
+
+  #machine3 .slotMachineContainer {
+    margin-left: 50px;
+  }
+
+
+  .slot-house {
+    margin-left: -34vw;
+    margin-top: 3vh;
+  }
+
+  input#shareBtn {
+    margin-top: 0px !important;
+}
+
+  .randomizeButton {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+      border: none;
+      border-radius: 8px;
+      letter-spacing: 1.57px;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 28px;
+      width: 175px;
+      height: 95px;
+      margin-top: -60vh !important;
+      margin-left: 10.5vw;
+      position: absolute;
+  }
+
+  .randomize-button-spacing {
+    margin-bottom: 12vh;
+    margin-right: 3.5vw;
+  }
+
+  .footer {
+
+  }
+
+  .footer img{
+    margin-bottom: 3%;
+    height: 15px;
+  }
+
+  .outer {
+    display: none;
+  }
+
+  .share-event-name {
+    margin-left: 29.5vw;
+    margin-top: -33vh;
+    font-size: 20px
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+    margin-top: -4vh;
+    margin-left: -15.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 31.5vw;
+    margin-top: -21vh;
+  }
+
+  .twttr-button {
+    margin-left: 47vw;
+    margin-top: -21vh
+  }
+
+  .machine1-border {
+    display: inline-block;
+    margin-left: 20.5%;
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: 12%;
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 458px;
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    margin-left: 15.5%;
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: -39.7%;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-right: 445px;
+
+  }
+
+
+  .machine3-border {
+    display: inline-block;
+    margin-left: 15.5%;
+    padding-top: 0px;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 0px;
+    padding-top: 5.5px;
+    margin-right: 373px;
+
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    width: 26%;
+    margin-left: -39.7%;
+  }
+
+}
+
+
+/* IPHONE 5S LANDSCAPE*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+   html, body:before {
+    content: "TURN YOUR PHONE";
+    font-size: 45px;
+    color:white;
+    text-align: center;
+    
+  }
+  .main-title {
+    display: none;
+  }
+  .log-line {
+    display: none;
+  }
+  .slot-house {
+    display: none;
+  }
+  .randomize-button-spacing {
+    display: none;
+  }
+  .button-options {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .outer {
+    display: none;
+  }
+
+}
+
+
+/*IPAD PORTRAIT*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+/*  html, body {
+    background-size:  350% 200%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+  .randomize-button-spacing {
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+  }
+
+  .slot {
+    font-size: 35px;
+    line-height: 65px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-right: -9vw;
+  }
+
+  .facebook-share-button {
+    margin-right: .5vw;
+  }
+
+  .share-event-name {
+    margin-left: -0.5vw;
+    font-size: 24px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 25px;
+  }
+
+  .slot {
+    font-size: 25px !important;
+  }
+
+}
+
+/*IPAD MINI PORTRAIT*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+/*  html, body {
+    background-size:  350% 200%;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+  .randomize-button-spacing {
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+  }
+
+  .slot {
+    font-size: 35px;
+    line-height: 65px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-right: -9vw;
+  }
+
+  .facebook-share-button {
+    margin-right: .5vw;
+  }
+
+  .share-event-name {
+    margin-left: -0.5vw;
+    font-size: 24px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 25px;
+  }
+
+  .slot {
+    font-size: 25px;
+  }
+
+}
+
+
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+/*  html, body {
+    background-size:  128% 128%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }*/
+
+  .footer img{
+    margin-bottom: 5%;
+  }
+
+  .randomize-button-spacing {
+    margin-top: 3.5%;
+
+  }
+
+  .share-event-name {
+    font-size: 24px;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+ .button-options {
+    margin-top: 2%;
+    margin-left: -15.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 8vw;
+    margin-right: 25px;
+  }
+
+}
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 414px) and (orientation: portrait)  { 
+
+  html,body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .outer {
+    display: none;
+  }
+
+ .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 8vw;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 5.5%;
+/*    margin-left: 7%;*/
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 4.5vw;
+    color: #FFFFFF;
+    text-align: center;
+/*    margin-left: 3.5%;*/
+  }
+
+  .slot-house {
+    margin-top: 3%;
+    margin-left: 5%;
+/*    margin-left: 9%;*/
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55.5px;
+    font-size: 34px;
+    line-height: 55px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1.7px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-left: 6.5%;
+    margin-bottom: 11px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 44px;
+    width: 275px;
+
+/*    margin-left: 7.5%;*/
+
+  }
+
+  .randomize-button-spacing {
+    margin-top: 4vh;
+    margin-bottom: -6%;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-left: -30vw;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+
+/*  .button-options {
+    margin-left: -30vw;
+  }
+*/
+  .share-event-name {
+    margin-left: 14.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 12vw;
+    margin-right: 17px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer img{
+    margin-bottom: 5%;
+    width: 165px;
+    height: 20px; 
+  }
+
+
+}
+
+
+/*GOOGLE NEXUS 6P*/
+@media only screen and (min-device-width: 412px) and (max-device-width: 412px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+/*  html, body {
+    background-size:  115% 115%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+*/
+  .slot-house {
+    margin-top: 2vh;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-left: -15.5vw;
+  }
+
+  .facebook-share-button {
+    margin-right: 25px;
+  }
+
+  .footer img{
+    margin-bottom: 3%;
+    width: 176px;
+    height: 20px; 
+  }
+
+  .randomize-button-spacing {
+    margin-top: 3vh;
+    margin-bottom: -5vh;
+
+  }
+
+  .share-event-name {
+    margin-left: 7.5vw;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+}
+
+/* IPHONE 6 */
+@media only screen and (min-device-width : 321px) and (max-device-width : 399px) and (orientation: portrait)  { 
+
+/*  html, body {
+    background-size:  350% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+  }*/
+
+  .outer {
+    display: none;
+  }
+
+ .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 8vw;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 4.5%;
+/*    margin-left: 7%;*/
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 4.5vw;
+    color: #FFFFFF;
+    text-align: center;
+/*    margin-left: 3.5%;*/
+  }
+
+  .slot-house {
+    margin-top: 1%;
+    margin-left: 5%;
+/*    margin-left: 9%;*/
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 55.5px;
+    font-size: 34px;
+    line-height: 56px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1.7px;
+    text-align: center; 
+    padding-top: 8px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-left: 6.5%;
+    margin-bottom: 11px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 37px;
+    width: 236px;
+    margin-bottom: -8%;
+/*    margin-left: 7.5%;*/
+  }
+
+  .randomize-button-spacing {
+    margin-top: 3%;
+
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-left: -27vw;
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .share-event-name {
+    margin-left: 13.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 8.5vw;
+    margin-right: 15px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer img{
+    margin-bottom: 5%;
+    width: 125px;
+    height: 12px; 
+  }
+
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 360px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+/*  html, body {
+    background-size:  350% 130%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }*/
+
+  .footer img{
+    margin-bottom: 4%;
+  }
+
+  .randomize-button-spacing {
+    margin-top: -1.5%;
+
+  }
+
+}
+
+
+/* IPHONE 5S */
+@media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait)  { 
+
+/*  html, body {
+    background-size:  350% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+*/
+  .outer {
+    display: none;
+  }
+
+ .main-title {
+   /* margin-left: 3%;*/
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 8vw;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-align: center;
+/*    padding-top: 8.5%;*/
+/*    margin-left: 7%;*/
+  }
+
+  .log-line {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 4.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 22px;
+/*    margin-left: 3.5%;*/
+  }
+
+  .slot-house {
+    margin-top: -3%;
+    margin-left: 5%;
+/*    margin-left: 9%;*/
+  }
+
+  .slot {
+    background-color: transparent;
+    height: 40.5px;
+    font-size: 27px;
+    line-height: 40px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1.7px;
+    text-align: center; 
+    padding-top: 5px;
+    padding-right: 7.5px;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+  }
+
+  .machine1-border {
+    display: inline-block;
+   
+  }
+
+  #machine1 .slotMachineContainer {
+    padding-right: 22%
+  }
+
+  .machine1-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-left: 6.5%;
+    margin-bottom: 11px; 
+  }
+
+  .machine2-border {
+    display: inline-block;  
+    text-align: center;
+  }
+
+  #machine2 .slotMachineContainer {
+    padding-left: 15%
+  }
+
+  .machine2-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .machine3-border {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #machine3 .slotMachineContainer {
+    padding-left: 15%;
+    padding-top: 0px;
+  }
+
+  .machine3-border:after {
+    content:""; 
+    border-bottom: 7px solid #FFFFFF;
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 11px; 
+  }
+
+  .randomizeButton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1.57px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+    width: 225px;
+    margin-bottom: -8%;
+/*    margin-left: 7.5%;*/
+
+  }
+
+  .randomize-button-spacing {
+    margin-top: 1%;
+
+  }
+
+  .copy-button {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer img{
+    margin-bottom: 5%;
+    width: 165px;
+    height: 20px; 
+  }
+
+  .button-options {
+    margin-top: 3%;
+    margin-left: -27vw;
+  }
+
+  .share-event-name {
+    margin-left: 13.5vw;
+  }
+
+  .facebook-share-button {
+    margin-left: 4vw;
+    margin-right: 25px;
+  }
+
+  .twttr-button {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+
+
+}
